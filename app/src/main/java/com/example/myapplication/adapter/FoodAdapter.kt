@@ -25,9 +25,9 @@ class FoodAdapter(
 
     class FoodVH(view: View, listener: OnFoodClickListener): RecyclerView.ViewHolder(view) {
 
-        private val ivCover = view.findViewById<ImageView>(R.id.ivCover)
-        private val tvName = view.findViewById<TextView>(R.id.tvName)
-        private val tvDescription = view.findViewById<TextView>(R.id.tvDescription)
+        private val iconFood = view.findViewById<ImageView>(R.id.imageView2)
+        private val nameFood = view.findViewById<TextView>(R.id.textView)
+        private val compositionFood = view.findViewById<TextView>(R.id.textView6)
 
         private lateinit var food: Food
 
@@ -37,9 +37,9 @@ class FoodAdapter(
 
         fun bind(food: Food) {
             this.food = food
-            tvName.text = food.title
-            tvDescription.text = food.composition
-            ivCover.setImageResource(food.coverResId)
+            nameFood.text = food.title
+            compositionFood.text = food.composition
+            iconFood.setImageResource(food.coverResId)
         }
     }}
 

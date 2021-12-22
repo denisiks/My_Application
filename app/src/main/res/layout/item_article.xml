@@ -11,18 +11,6 @@
         android:layout_height="match_parent"
         android:layout_margin="10dp">
 
-        <ImageView
-            android:id="@+id/user_photo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:layout_marginStart="12dp"
-            android:layout_marginTop="16dp"
-            android:src="@drawable/ic_baseline_account_circle_24"
-            app:layout_constraintBottom_toTopOf="@+id/comments_text"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/Article_name" />
-
         <TextView
             android:id="@+id/Article_name"
             android:layout_width="wrap_content"
@@ -36,21 +24,20 @@
             tools:text="@string/article_name" />
 
         <TextView
-            android:id="@+id/comment_date"
+            android:id="@+id/article_date"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:text="13.12.2021"
             android:textColor="@color/black"
-
-            android:textSize="24sp"
+            android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.95"
-            app:layout_constraintStart_toEndOf="@+id/comments"
+            app:layout_constraintStart_toEndOf="@+id/Author"
             app:layout_constraintTop_toBottomOf="@+id/Article_name" />
 
         <TextView
-            android:id="@+id/comments"
+            android:id="@+id/Author"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
@@ -59,11 +46,11 @@
             android:textColor="@color/black"
             android:textSize="15sp"
             android:textStyle="bold"
-            app:layout_constraintStart_toEndOf="@+id/user_photo"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Article_name" />
 
         <TextView
-            android:id="@+id/comments_text"
+            android:id="@+id/article_text"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
@@ -74,7 +61,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/comments"
+            app:layout_constraintTop_toBottomOf="@+id/Author"
             app:layout_constraintVertical_bias="0.466"
             tools:text="@tools:sample/lorem/random" />
     </androidx.constraintlayout.widget.ConstraintLayout>

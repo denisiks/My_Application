@@ -10,16 +10,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
-            android:name=".Search_Activity"
+            android:name=".activity.FoodsActivity"
             android:exported="false" />
         <activity
-            android:name=".Food_Page_Activity"
+            android:name=".activity.ArticlesActivity"
             android:exported="false" />
         <activity
-            android:name=".Login_Activity"
+            android:name=".activity.CommentsActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.profileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.Food_Page_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

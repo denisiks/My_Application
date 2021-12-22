@@ -8,12 +8,18 @@
         <entry key="..\:/Games/projects/app/src/main/res/drawable/ic_baseline_clear_24.xml" value="0.14427083333333332" />
         <entry key="..\:/Games/projects/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Games/projects/app/src/main/res/layout/auth_layout.xml" value="0.6" />
-        <entry key="..\:/Games/projects/app/src/main/res/layout/item_article.xml" value="0.25416666666666665" />
+        <entry key="..\:/Games/projects/app/src/main/res/layout/food_page_layout.xml" value="0.1" />
+        <entry key="..\:/Games/projects/app/src/main/res/layout/item_article.xml" value="0.536" />
+        <entry key="..\:/Games/projects/app/src/main/res/layout/item_comment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Games/projects/app/src/main/res/layout/item_pizza.xml" value="0.253125" />
         <entry key="..\:/Games/projects/app/src/main/res/layout/items_articles.xml" value="0.25416666666666665" />
         <entry key="..\:/Games/projects/app/src/main/res/layout/items_comments.xml" value="0.25416666666666665" />
-        <entry key="..\:/Games/projects/app/src/main/res/layout/items_pizzas.xml" value="0.536" />
+        <entry key="..\:/Games/projects/app/src/main/res/layout/items_pizzas.xml" value="0.4" />
+        <entry key="..\:/Games/projects/app/src/main/res/layout/profile_layout.xml" value="0.4" />
         <entry key="..\:/Games/projects/app/src/main/res/layout/search.xml" value="0.25416666666666665" />
+        <entry key="..\:/Games/projects/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.13854166666666667" />
       </map>
     </option>
   </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
 </project>
