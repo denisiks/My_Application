@@ -4,15 +4,15 @@
         android:id="@+id/page_1"
         android:enabled="true"
         android:icon="@drawable/ic_baseline_home_24"
-        android:title="home"/>
+        android:title="home" />
     <item
         android:id="@+id/page_2"
         android:enabled="true"
         android:icon="@drawable/ic_baseline_search_24"
-        android:title="search"/>
+        android:title="search" />
     <item
         android:id="@+id/page_3"
         android:enabled="true"
         android:icon="@drawable/ic_baseline_account_circle_24"
-        android:title="profile"/>
+        android:title="profile" />
 </menu>

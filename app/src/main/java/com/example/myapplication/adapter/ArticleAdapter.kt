@@ -14,7 +14,7 @@ typealias OnArticleClickListener = (Article)->Unit
 
 class ArticleAdapter(
         private val articles : List<Article>,
-        private val listener: OnArticleClickListener,
+private val listener: OnArticleClickListener,
 ):RecyclerView.Adapter<ArticleAdapter.ArticleVH>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ArticleVH {
         val layoutInflater = LayoutInflater.from(parent.context)

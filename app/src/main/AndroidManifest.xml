@@ -10,24 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
-            android:name=".activity.FoodsActivity"
-            android:exported="false" />
-        <activity
-            android:name=".activity.ArticlesActivity"
-            android:exported="false" />
-        <activity
-            android:name=".activity.CommentsActivity"
-            android:exported="false" />
-        <activity
-            android:name=".activity.profileActivity"
-            android:exported="false" />
-        <activity
-            android:name=".activity.Food_Page_Activity"
-            android:exported="false" />
-        <activity
-            android:name=".activity.LoginActivity"
-            android:exported="false" />
-        <activity
             android:name=".activity.MainActivity"
             android:exported="true">
             <intent-filter>
@@ -36,6 +18,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activity.ArticlesActivity"/>
+        <activity android:name=".activity.CommentsActivity"/>
+        <activity android:name=".activity.Food_Page_Activity"/>
+        <activity android:name=".activity.FoodsActivity"/>
+        <activity android:name=".activity.ProfileActivity"/>
+        <activity android:name=".activity.ArticlePageActivity"/>
     </application>
 
 </manifest>
